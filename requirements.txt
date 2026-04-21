@@ -1,0 +1,6 @@
+langgraph
+langsmith
+pydantic
+pandas
+openai
+httpx

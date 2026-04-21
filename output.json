@@ -1,0 +1,67 @@
+[
+    {
+        "ticket_id": "1",
+        "subject": "Charged twice for subscription",
+        "body": "Hello, I am extremely frustrated right now because I noticed that I have been charged twice for the same premium subscription this month. I double-checked my bank account and there are clearly two identical charges within a very short time frame. This is unacceptable and I need an immediate explanation and refund. I have been a loyal user for a long time and this kind of issue really makes me question the reliability of your billing system.",
+        "department": "Billing",
+        "urgency": "High",
+        "issue_summary": "Customer reports being charged twice for the same premium subscription within a short time frame and requests an immediate refund and explanation.",
+        "root_cause": "Duplicate billing transaction leading to two charges for the same subscription.",
+        "suggested_action": "1) Look up the account and identify the two charges (collect transaction IDs). 2) If duplicates exist, process an immediate refund for the duplicate charge and confirm refund timing. 3) Provide the customer with a clear explanation and apology including refund status. 4) Escalate to Billing/Payments to investigate the root cause and implement checks to prevent duplicate charges. 5) Request any needed details (account email, last4 digits, or transaction IDs) if not already provided.",
+        "sentiment": "Angry",
+        "reply_subject": "Re: Charged twice for subscription (Ticket ID: 1)",
+        "reply_body": "Hello,\n\nThank you for reaching out. I’m sorry for the double charges on your premium subscription. We understand how frustrating this is.\n\nPlease know that your case is currently being reviewed by our Billing team. We are investigating the two charges and will identify their transaction IDs. If a duplicate charge is confirmed, we will process the appropriate refund and provide a detailed explanation of what occurred.\n\nTo help expedite the review, please share any of the following if you have them: the account email, the last 4 digits of the card, and the two transaction IDs from your bank statement.\n\nWe have escalated this to Billing/Payments to investigate the root cause and to implement preventive checks to avoid duplicate charges in the future.\n\nThank you for your patience and for being a loyal user. We will update you as soon as we have more information.\n\nBest regards,\nBilling Support"
+    },
+    {
+        "ticket_id": "2",
+        "subject": "App crashes on login",
+        "body": "Hi, every time I try to log into the mobile application, it crashes immediately after I enter my credentials. I have already tried restarting my phone, reinstalling the app, and even clearing the cache, but nothing seems to work. This issue is preventing me from accessing important information and it is becoming very frustrating. Please look into this as soon as possible.",
+        "department": "Account",
+        "urgency": "High",
+        "issue_summary": "Mobile app crashes immediately after entering login credentials.",
+        "root_cause": "Unknown; crash occurs during the login/authentication flow and requires investigation.",
+        "suggested_action": "Gather device/app context (OS version, device model, app version) and determine if the crash affects a single account or all users. Collect crash data (logs/stack trace) or enable crash reporting, and request the user to share screenshots or a screen recording. Confirm precise reproduction steps and time of occurrence, check backend login service status, then escalate to Engineering with all collected data and a bug ticket. Keep the user updated and request any additional details if needed.",
+        "sentiment": "Angry",
+        "reply_subject": "Re: App crashes on login - Ticket 2",
+        "reply_body": "Hello,\n\nI’m sorry you’re experiencing crashes right after entering your credentials. I understand how frustrating this is.\n\nPlease know your issue is being reviewed by our Account team and is being escalated to Engineering for investigation.\n\nTo help us resolve this quickly, could you please provide:\n- Your device model and OS version\n- The app version you are using\n- Whether the crash happens for one account or all accounts\n- Any crash logs, a screenshot, or a short screen recording (if available)\n- Exact steps to reproduce and the approximate time of occurrence\n\nIf you can share any of these details, we’ll use them to investigate further. We will keep you updated with any progress.\n\nThank you for your patience."
+    },
+    {
+        "ticket_id": "3",
+        "subject": "Need to change email",
+        "body": "Hello, I hope you are doing well. I would like to request assistance in updating my account email address because I no longer have access to the previous one. I have tried navigating through the settings but could not find a clear way to make this change. Could you please guide me through the process or update it on your side if possible? Thank you in advance for your help.",
+        "department": "Account",
+        "urgency": "Normal",
+        "issue_summary": "Customer requests to update their account email address because they no longer have access to the previous one; asks for guidance or for the update to be performed on our side.",
+        "root_cause": "User cannot access their current email and there is no clear self-service option found to change the account email.",
+        "suggested_action": "Action items for the agent: (1) collect new_email and account_id/username from the user. (2) verify account ownership using approved alternative methods per policy. (3) if verified, update the account email to new_email and send a confirmation to the new address. (4) instruct user to check the new inbox (and spam) for verification. (5) if verification fails, escalate to Security/Identity team. (6) if a self-service path exists, provide the user with the appropriate step-by-step guide.",
+        "sentiment": "Neutral",
+        "reply_subject": "Re: Need to change email - Ticket 3",
+        "reply_body": "Hello,\n\nThank you for reaching out. I understand you no longer have access to your previous email and would like to update it. Your request is currently being reviewed, and we’ll assist you through the secure process.\n\nTo proceed, please reply with:\n- the new email address you’d like to use\n- your account ID or username\n\nFor security, we may verify ownership using approved methods. If verification is successful, we will update your account to the new email and send a confirmation to that address. Please check your new inbox (and spam/junk folders) for the confirmation message.\n\nIf we’re unable to verify ownership, the case will be escalated to our Security/Identity team for the next steps.\n\nWe’ll keep you updated as soon as more information is available.\n\nBest regards,\nSupport Team"
+    },
+    {
+        "ticket_id": "4",
+        "subject": "Refund not processed",
+        "body": "Good afternoon, I submitted a refund request over a week ago, but I have not received any updates or confirmation. I understand that these processes can take time, but I would appreciate some transparency regarding the status. This delay is causing inconvenience on my end, and I would really like to know when I can expect the refund to be completed.",
+        "department": "Billing",
+        "urgency": "Normal",
+        "issue_summary": "Customer reports refund request submitted over a week ago with no updates or confirmation and asks for status and an estimated completion time.",
+        "root_cause": "Refund processing status not communicated; customer has waited >7 days without an update.",
+        "suggested_action": "1) Look up the refund request in the Billing system and confirm its current status. 2) Provide the customer with an estimated completion date and any blockers. 3) If possible, expedite the refund and notify the customer of the new timeline. 4) Send a clear update/confirmation email or message with next steps. 5) If the refund is already completed, provide transaction details and date. 6) If delays persist, escalate to Billing supervisor and set a target response.",
+        "sentiment": "Neutral",
+        "reply_subject": "Re: Refund not processed - Ticket #4",
+        "reply_body": "Good afternoon,\n\nThank you for bringing this to our attention. I understand that your refund request submitted over a week ago has not yet been updated, and I’m sorry for the inconvenience.\n\nYour case is currently being reviewed by our Billing team. We are checking the refund status in our system and will share an estimated completion date and any blockers as soon as we have them. If the refund is already completed, we will provide the transaction details and date; if delays persist, we will escalate to a Billing supervisor to set a target response.\n\nWe appreciate your patience and will keep you updated with any new information."
+    },
+    {
+        "ticket_id": "5",
+        "subject": "Website is very slow",
+        "body": "Hey, I just wanted to report that the website performance today is extremely slow. Pages take forever to load, and sometimes they don’t load at all. It’s really affecting my ability to use your service properly. I am not sure if this is a server issue or something else, but I hope you can fix it soon.",
+        "department": "Technical",
+        "urgency": "High",
+        "issue_summary": "Website performance is extremely slow today; pages load slowly or fail to load; high urgency.",
+        "root_cause": "Unknown; requires investigation to determine whether the issue is on the server, network, or application side.",
+        "suggested_action": "Acknowledge the issue and start investigation. Check status dashboards and incident reports for hosting/CDN; review real-time server metrics (CPU, memory, disk I/O), web server logs, and application logs around the reported times; inspect CDN edge caches and geolocation latency; verify database latency and any long-running queries; check for recent deployments or outages that could correlate; determine if the issue is regional; collect user details (time of issue, pages affected, browser/OS, location/IP, whether it persists in incognito/after cache clear); if incident is confirmed, engage on-call SRE, consider mitigations (scale resources, adjust caching, route traffic to healthy endpoints), and provide ETA updates to the user.",
+        "sentiment": "Neutral",
+        "reply_subject": "Re: Ticket 5 - Website is very slow",
+        "reply_body": "Hello,\n\nThank you for reporting the slow website performance. I’m sorry for the disruption you’re experiencing.\n\nYour case (Ticket ID: 5) is being reviewed by our Technical team. We are currently investigating potential causes and monitoring status dashboards, server metrics, logs, and any recent deployments that could be contributing to the slowdown.\n\nWe don’t have an ETA to share yet, but we will keep you updated with any findings and next steps as soon as they become available.\n\nIf you can share additional details (time of occurrence, pages affected, browser/OS, location/IP, and whether the issue persists in incognito or after clearing cache), it would help speed up the investigation.\n\nThank you for your patience while we work to resolve this.\n\nBest regards,\nSupport Team"
+    }
+]
